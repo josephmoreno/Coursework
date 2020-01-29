@@ -1,9 +1,9 @@
 # Coursework
-University coursework; made private to disallow current students from copying.
+University coursework.
 
 Coursework from:
-- Program Design
-- Object-Oriented Programming
-- Data Structures
-- Algorithms
-- Operating Systems
+- Program Design (In progress)
+- Object-Oriented Programming (Not pushed yet)
+- Data Structures (Not pushed yet)
+- Algorithms (Not pushed yet)
+- Operating Systems (Not pushed yet)
