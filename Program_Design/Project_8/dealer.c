@@ -114,6 +114,7 @@ struct car *append_to_list(struct car *list) {
 		previous = list;
 		(*list).next = new_car;
 		list = new_car;
+		list->next = NULL;
 
 		for(current = first; current != list; current = (*current).next) {
                 	if (strcmp((*current).make, (*new_car).make) == 0
@@ -123,9 +124,8 @@ struct car *append_to_list(struct car *list) {
                         	printf("\nThis car is already listed.");
                         	free(new_car);
 				list = previous;
-                        	break;
-			} else {
 				list->next = NULL;
+                        	break;
 			}
 		}
 	}
