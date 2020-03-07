@@ -1,0 +1,49 @@
+# Written by Joseph Daniel Moreno
+#
+# This GVM file does the minimum number
+# of moves for a Tower of Hanoi puzzle.
+
+# Check memory size and clear the accumulator. Resize initial memory to 3;
+# dataMem[2] temporarily holds the original number of disks.
+CHECKMEM 1
+CLEAR
+INSERT 0
+INSERT 0
+AT 2
+SET 0
+CLEAR
+SET 1
+
+# Check the number of disks and...
+AT 0
+
+# ...jump to end of program if N == 0.
+JUMPZERO 17
+
+# If N == 1, then set result = 2 (dataMem[1] = 2) and jump to the end of the program.
+SUBCONST 1
+SET 0
+CLEAR
+ADDCONST 2
+SET 1
+AT 0
+JUMPZERO 8
+
+# Execute these commands if N > 1.
+SUBCONST 1
+SET 0
+AT 1
+MULCONST 2
+SET 1
+AT 0
+JUMPNZERO -6
+
+# Subtract 1 from the result after the JUMPNZERO loop terminates, set dataMem[1] to that result, and halt.
+AT 1
+SUBCONST 1
+SET 1
+AT 2
+SET 0
+ERASE 2
+CLEAR
+HALT
