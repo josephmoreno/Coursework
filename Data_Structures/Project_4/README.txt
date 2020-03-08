@@ -1,4 +1,4 @@
-Compiled with Node.js for Windows
+Code executed with Node.js for Windows
 
 Command required before running app.js (in the working directory):
 npm install
