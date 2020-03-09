@@ -1,0 +1,2 @@
+buckets: buckets.cpp graph.hpp
+	g++ -o buckets -std=c++17 buckets.cpp
