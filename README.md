@@ -6,3 +6,4 @@ Coursework from:
 - Object-Oriented Programming
 - Data Structures
 - Algorithms
+- FPGA Design
