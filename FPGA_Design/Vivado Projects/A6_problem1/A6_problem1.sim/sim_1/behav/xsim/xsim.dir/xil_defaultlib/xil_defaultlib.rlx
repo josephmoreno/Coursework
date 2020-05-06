@@ -1,0 +1,13 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A6_problem1/A6_problem1.srcs/sim_1/new/sorter_tb.vhd,1584032463,vhdl,,,,sorter_tb,,,,,,,,
+C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A6_problem1/A6_problem1.srcs/sources_1/imports/rtl/ascii_rom.vhd,1494157062,vhdl,,,,ascii_rom,,,,,,,,
+C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A6_problem1/A6_problem1.srcs/sources_1/imports/rtl/delay.vhd,1494157062,vhdl,,,,delay,,,,,,,,
+C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A6_problem1/A6_problem1.srcs/sources_1/imports/rtl/oled_ctrl.vhd,1584032290,vhdl,C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A6_problem1/A6_problem1.srcs/sources_1/new/sorter.vhd,,,oled_ctrl,,,,,,,,
+C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A6_problem1/A6_problem1.srcs/sources_1/imports/rtl/oled_ex.vhd,1584032906,vhdl,,,,oled_ex,,,,,,,,
+C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A6_problem1/A6_problem1.srcs/sources_1/imports/rtl/oled_init.vhd,1494157062,vhdl,,,,oled_init,,,,,,,,
+C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A6_problem1/A6_problem1.srcs/sources_1/imports/rtl/spi_ctrl.vhd,1494157062,vhdl,,,,spi_ctrl,,,,,,,,
+C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A6_problem1/A6_problem1.srcs/sources_1/new/ram_8x16.vhd,1583856973,vhdl,C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A6_problem1/A6_problem1.srcs/sources_1/new/sorter.vhd,,,ram_8x16,,,,,,,,
+C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A6_problem1/A6_problem1.srcs/sources_1/new/sorter.vhd,1584032417,vhdl,C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A6_problem1/A6_problem1.srcs/sim_1/new/sorter_tb.vhd,,,sorter,,,,,,,,

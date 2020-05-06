@@ -1,0 +1,7 @@
+Running: xsim.dir/gt2_struc_tb_behav/xsimk.exe -simmode gui -wdb gt2_struc_tb_behav.wdb -simrunnum 0 -socket 62585
+Design successfully loaded
+Design Loading Memory Usage: 4604 KB (Peak: 4604 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 5292 KB (Peak: 5292 KB)
+Simulation CPU Usage: 30 ms

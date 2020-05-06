@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../FPGA_FinalProject.srcs/sources_1/new/ram.vhd" \
+"../../../../FPGA_FinalProject.srcs/sources_1/new/pattern_recognizer.vhd" \
+"../../../../FPGA_FinalProject.srcs/sim_1/new/pattern_recognizer_tb.vhd" \
+
+# Do not sort compile order
+nosort

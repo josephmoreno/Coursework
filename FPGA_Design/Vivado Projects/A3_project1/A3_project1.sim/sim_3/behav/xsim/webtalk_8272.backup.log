@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Feb  6 15:27:27 2020
+# Process ID: 8272
+# Current directory: C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A3_project1/A3_project1.sim/sim_3/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A3_project1/A3_project1.sim/sim_3/behav/xsim/xsim.dir/bcd_2_bin_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A3_project1/A3_project1.sim/sim_3/behav/xsim/webtalk.log
+# Journal file: C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A3_project1/A3_project1.sim/sim_3/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Joseph/Desktop/Current -notrace
+couldn't read file "C:/Users/Joseph/Desktop/Current": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Thu Feb  6 15:27:28 2020...

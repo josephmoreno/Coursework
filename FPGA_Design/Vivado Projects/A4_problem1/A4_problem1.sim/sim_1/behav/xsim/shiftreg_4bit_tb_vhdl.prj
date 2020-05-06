@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../A4_problem1.srcs/sources_1/new/shiftreg_4bit.vhd" \
+"../../../../A4_problem1.srcs/sim_1/new/shiftreg_4bit_tb.vhd" \
+
+# Do not sort compile order
+nosort

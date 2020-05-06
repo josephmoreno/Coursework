@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A5_problem1/A5_problem1.srcs/sources_1/new/bitPattern_FSM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bitPattern_FSM'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A5_problem1/A5_problem1.srcs/sim_1/new/bitPattern_FSM_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bitPattern_FSM_tb'

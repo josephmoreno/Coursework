@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Mar 12 17:25:33 2020
+# Process ID: 1536
+# Current directory: C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A6_problem1/A6_problem1.runs/impl_1
+# Command line: vivado.exe -log sorter.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source sorter.tcl -notrace
+# Log file: C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A6_problem1/A6_problem1.runs/impl_1/sorter.vdi
+# Journal file: C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A6_problem1/A6_problem1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source sorter.tcl -notrace

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Feb 18 12:28:28 2020
+# Process ID: 3492
+# Current directory: C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A4_problem2/A4_problem2.runs/impl_1
+# Command line: vivado.exe -log ms_pulse.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ms_pulse.tcl -notrace
+# Log file: C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A4_problem2/A4_problem2.runs/impl_1/ms_pulse.vdi
+# Journal file: C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A4_problem2/A4_problem2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source ms_pulse.tcl -notrace

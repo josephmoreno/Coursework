@@ -1,0 +1,117 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Mar 12 18:34:16 2020
+| Host         : Monotonous running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file sorter_control_sets_placed.rpt
+| Design       : sorter
+| Device       : xc7z020
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    39 |
+|    Minimum number of control sets                        |    39 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   125 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    39 |
+| >= 0 to < 4        |     2 |
+| >= 4 to < 6        |    16 |
+| >= 6 to < 8        |     4 |
+| >= 8 to < 10       |     6 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     6 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     4 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              18 |           11 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              57 |           16 |
+| Yes          | No                    | No                     |             159 |           50 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              73 |           20 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------+--------------------------------------------------------+---------------------------------------------------------------------+------------------+----------------+
+|   Clock Signal   |                      Enable Signal                     |                           Set/Reset Signal                          | Slice Load Count | Bel Load Count |
++------------------+--------------------------------------------------------+---------------------------------------------------------------------+------------------+----------------+
+|  clock_IBUF_BUFG | oled_ctrl0/Initialize/temp_vdd_i_1_n_0                 |                                                                     |                1 |              1 |
+|  clock_IBUF_BUFG | oled_ctrl0/Initialize/temp_vbat_i_1_n_0                |                                                                     |                1 |              1 |
+|  clock_IBUF_BUFG | oled_ctrl0/Example/current_screen[0,0]                 | oled_ctrl0/Example/current_screen[0,2][4]_i_1_n_0                   |                1 |              4 |
+|  clock_IBUF_BUFG | oled_ctrl0/Initialize/E[0]                             | reset_IBUF                                                          |                1 |              4 |
+|  clock_IBUF_BUFG | oled_ctrl0/Example/temp_sdata[5]_i_1_n_0               | oled_ctrl0/Example/temp_sdata[7]_i_1_n_0                            |                1 |              4 |
+|  clock_IBUF_BUFG | oled_ctrl0/Example/after_page_state                    |                                                                     |                2 |              4 |
+|  clock_IBUF_BUFG | oled_ctrl0/Example/temp_sdata[5]_i_1_n_0               |                                                                     |                2 |              4 |
+|  clock_IBUF_BUFG | i[3]_i_1_n_0                                           |                                                                     |                1 |              4 |
+|  clock_IBUF_BUFG | count[3]_i_2_n_0                                       | count[3]_i_1_n_0                                                    |                2 |              4 |
+|  clock_IBUF_BUFG | addr[3]_i_1_n_0                                        |                                                                     |                1 |              4 |
+|  clock_IBUF_BUFG | oled_ctrl0/Initialize/spi_comp/temp_sdata              | oled_ctrl0/Initialize/spi_comp/FSM_onehot_current_state_reg_n_0_[0] |                1 |              5 |
+|  clock_IBUF_BUFG |                                                        | oled_ctrl0/Example/spi_comp/counter                                 |                1 |              5 |
+|  clock_IBUF_BUFG | oled_ctrl0/Initialize/delay_comp/E[0]                  | reset_IBUF                                                          |                2 |              5 |
+|  clock_IBUF_BUFG |                                                        | oled_ctrl0/Initialize/spi_comp/counter                              |                1 |              5 |
+|  clock_IBUF_BUFG | oled_ctrl0/Example/FSM_onehot_state_reg[9][0]          |                                                                     |                2 |              5 |
+|  clock_IBUF_BUFG | oled_ctrl0/Initialize/g0_b0__1_n_0                     |                                                                     |                2 |              5 |
+|  clock_IBUF_BUFG | oled_ctrl0/Example/spi_comp/temp_sdata                 | oled_ctrl0/Example/spi_comp/FSM_onehot_current_state_reg_n_0_[0]    |                2 |              5 |
+|  clock_IBUF_BUFG | oled_ctrl0/Example/counter                             | oled_ctrl0/Example/counter[4]_i_1__1_n_0                            |                1 |              5 |
+|  clock_IBUF_BUFG | oled_ctrl0/Example/g0_b0__3_n_0                        |                                                                     |                2 |              6 |
+|  clock_IBUF_BUFG | oled_ctrl0/Example/delay_comp/E[0]                     |                                                                     |                3 |              6 |
+|  clock_IBUF_BUFG | oled_ctrl0/Example/spi_comp/shift_register             |                                                                     |                1 |              7 |
+|  clock_IBUF_BUFG | oled_ctrl0/Initialize/spi_comp/shift_register_0        |                                                                     |                1 |              7 |
+|  clock_IBUF_BUFG | A[7]_i_1_n_0                                           |                                                                     |                2 |              8 |
+|  clock_IBUF_BUFG | B[7]_i_1_n_0                                           |                                                                     |                2 |              8 |
+|  clock_IBUF_BUFG | w_en__0                                                |                                                                     |                2 |              8 |
+|  clock_IBUF_BUFG | oled_ctrl0/Example/hex0_3                              |                                                                     |                1 |              8 |
+|  clock_IBUF_BUFG | oled_ctrl0/Initialize/g0_b0__2_n_0                     |                                                                     |                1 |              8 |
+|  clock_IBUF_BUFG | ram_in[7]_i_1_n_0                                      |                                                                     |                3 |              8 |
+|  clock_IBUF_BUFG | oled_ctrl0/Example/temp_addr[9]_i_1_n_0                |                                                                     |                3 |             10 |
+|  clock_IBUF_BUFG | oled_ctrl0/Initialize/delay_comp/ms_counter[0]_i_2_n_0 | oled_ctrl0/Initialize/delay_comp/ms_counter                         |                3 |             12 |
+|  clock_IBUF_BUFG | oled_ctrl0/Example/delay_comp/ms_counter[0]_i_2__0_n_0 | oled_ctrl0/Example/delay_comp/ms_counter                            |                3 |             12 |
+|  clock_IBUF_BUFG | oled_ctrl0/Example/ascii1[6]_i_1_n_0                   |                                                                     |                3 |             13 |
+|  clock_IBUF_BUFG | oled_ctrl0/Example/E[0]                                | reset_IBUF                                                          |                3 |             13 |
+|  clock_IBUF_BUFG | oled_ctrl0/Example/after_char_state_1                  |                                                                     |                6 |             13 |
+|  clock_IBUF_BUFG |                                                        | reset_IBUF                                                          |                4 |             13 |
+|  clock_IBUF_BUFG |                                                        | oled_ctrl0/Initialize/delay_comp/clk_counter[0]_i_1_n_0             |                5 |             17 |
+|  clock_IBUF_BUFG |                                                        | oled_ctrl0/Example/delay_comp/clk_counter[0]_i_1__0_n_0             |                5 |             17 |
+|  clock_IBUF_BUFG |                                                        |                                                                     |               11 |             18 |
+|  clock_IBUF_BUFG | oled_ctrl0/Example/current_screen[0,0]                 |                                                                     |               10 |             29 |
++------------------+--------------------------------------------------------+---------------------------------------------------------------------+------------------+----------------+
+
+

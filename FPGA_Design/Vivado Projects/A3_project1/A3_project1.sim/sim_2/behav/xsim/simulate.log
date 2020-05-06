@@ -1,0 +1,5 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+Failure: Simulation completed.
+Time: 3200 ns  Iteration: 0  Process: /gt2_struc_tb/line__50  File: C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A3_project1/A3_project1.srcs/sim_2/new/gt2_struc_tb.vhd
+$finish called at time : 3200 ns : File "C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A3_project1/A3_project1.srcs/sim_2/new/gt2_struc_tb.vhd" Line 135

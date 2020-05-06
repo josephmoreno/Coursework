@@ -1,0 +1,5 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+Failure: Simulation completed.
+Time: 355 ns  Iteration: 0  Process: /bin_division_tb/line__88  File: C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A5_problem2/A5_problem2.srcs/sim_3/new/bin_division_tb.vhd
+$finish called at time : 355 ns : File "C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A5_problem2/A5_problem2.srcs/sim_3/new/bin_division_tb.vhd" Line 109

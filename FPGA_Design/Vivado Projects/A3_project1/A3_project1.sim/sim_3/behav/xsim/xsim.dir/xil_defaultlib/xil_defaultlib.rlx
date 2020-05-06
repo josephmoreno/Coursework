@@ -1,0 +1,10 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A3_project1/A3_project1.srcs/sim_3/new/bcd_2_bin_tb.vhd,1581039476,vhdl,,,,bcd_2_bin_tb,,,,,,,,
+C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A3_project1/A3_project1.srcs/sim_3/new/temp_tb.vhd,1581032006,vhdl,,,,temp_tb,,,,,,,,
+C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A3_project1/A3_project1.srcs/sources_1/new/bcd_2_bin.vhd,1581032882,vhdl,C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A3_project1/A3_project1.srcs/sim_3/new/bcd_2_bin_tb.vhd,,,bcd_2_bin,,,,,,,,
+C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A3_project1/A3_project1.srcs/sources_1/new/bcd_2_bin_p0.vhd,1581038193,vhdl,C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A3_project1/A3_project1.srcs/sources_1/new/bcd_2_bin.vhd,,,bcd_2_bin_p0,,,,,,,,
+C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A3_project1/A3_project1.srcs/sources_1/new/compare.vhd,1581026279,vhdl,C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A3_project1/A3_project1.srcs/sources_1/new/bcd_2_bin_p0.vhd,,,compare,,,,,,,,
+C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A3_project1/A3_project1.srcs/sources_1/new/invalid_compare.vhd,1581038156,vhdl,C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A3_project1/A3_project1.srcs/sources_1/new/bcd_2_bin_p0.vhd,,,invalid_compare,,,,,,,,

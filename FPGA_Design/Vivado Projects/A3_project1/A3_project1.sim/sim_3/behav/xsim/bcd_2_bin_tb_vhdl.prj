@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../A3_project1.srcs/sources_1/new/compare.vhd" \
+"../../../../A3_project1.srcs/sources_1/new/invalid_compare.vhd" \
+"../../../../A3_project1.srcs/sources_1/new/bcd_2_bin_p0.vhd" \
+"../../../../A3_project1.srcs/sources_1/new/bcd_2_bin.vhd" \
+"../../../../A3_project1.srcs/sim_3/new/bcd_2_bin_tb.vhd" \
+
+# Do not sort compile order
+nosort

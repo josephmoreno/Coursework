@@ -1,0 +1,5 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+Failure: Simulation completed.
+Time: 1600 ns  Iteration: 0  Process: /bcd_2_bin_tb/line__53  File: C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A3_project1/A3_project1.srcs/sim_3/new/bcd_2_bin_tb.vhd
+$finish called at time : 1600 ns : File "C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A3_project1/A3_project1.srcs/sim_3/new/bcd_2_bin_tb.vhd" Line 99

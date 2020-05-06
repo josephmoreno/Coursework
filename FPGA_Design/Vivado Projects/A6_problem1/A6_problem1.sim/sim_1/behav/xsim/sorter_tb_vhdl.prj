@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../A6_problem1.srcs/sources_1/imports/rtl/ascii_rom.vhd" \
+"../../../../A6_problem1.srcs/sources_1/imports/rtl/delay.vhd" \
+"../../../../A6_problem1.srcs/sources_1/imports/rtl/oled_ctrl.vhd" \
+"../../../../A6_problem1.srcs/sources_1/imports/rtl/oled_ex.vhd" \
+"../../../../A6_problem1.srcs/sources_1/imports/rtl/oled_init.vhd" \
+"../../../../A6_problem1.srcs/sources_1/new/ram_8x16.vhd" \
+"../../../../A6_problem1.srcs/sources_1/new/sorter.vhd" \
+"../../../../A6_problem1.srcs/sources_1/imports/rtl/spi_ctrl.vhd" \
+"../../../../A6_problem1.srcs/sim_1/new/sorter_tb.vhd" \
+
+# Do not sort compile order
+nosort

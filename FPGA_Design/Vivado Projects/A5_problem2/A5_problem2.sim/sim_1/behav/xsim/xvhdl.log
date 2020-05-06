@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A5_problem2/A5_problem2.srcs/sources_1/new/num_gen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'num_gen'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Joseph/Desktop/Current HW/FPGA HW/Vivado Projects/A5_problem2/A5_problem2.srcs/sim_1/new/num_gen_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'num_gen_tb'
