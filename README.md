@@ -7,3 +7,4 @@ Coursework from:
 - Data Structures
 - Algorithms
 - FPGA Design
+- Embedded Systems
